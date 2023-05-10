@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Ban.h"
+#include "Assign_1_Ban.h"
 using namespace std;
 
 void main() {
