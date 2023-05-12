@@ -1,1 +1,16 @@
+#include <iostream>
+#include "Assign_1_Ban.h"
+using namespace std;
 
+void main() {
+	Ban A, B, C;
+	A = Ban(10, 50, 3, 4);
+	B = Ban(0, 45, 2, 4);
+	A.sum(); B.sum();
+	C.n1 = A.n1 + B.n1;
+	C.n2 = A.n2 + B.n2;
+	C.n3 = A.n3 + B.n3;
+	C.n4 = A.n4 + B.n4;
+	C.sum();
+	cout << C.total << endl;
+}
